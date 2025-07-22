@@ -10,9 +10,35 @@ This repository is intended to be used as an example software project which is c
 This software project is not finished, does not contain a LICENCE file, the code is currently failing to run and contains some code style issues. 
 It is used as a starting point for the course - issues will be fixed and code will be added in a number of places during the course by learners in their own copies of the repository, as course topics are introduced.
 
+## Usage
+
+### Preparation
+Check out repository and move to directory
+```
+git clone ...
+cd python-intermediate-inflammation
+```
+
+create Environment and install dependencies
+```
+python ...
+./venv/bin/activate
+
+python -m pip install requirements.yml
+```
+
+
+
+
+
+
+
 ## Tests
 
 Several tests have been implemented already, some of which are currently failing.
 These failing tests set out the requirements for the additional code to be implemented during the workshop.
 
 The tests should be run using `pytest`, which will be introduced during the workshop.
+
+## Licence
+This software is released under the [MIT Licence](./LICENCE.md)
